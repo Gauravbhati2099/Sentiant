@@ -3,7 +3,7 @@ import axios from 'axios';
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from "jwt-decode";
 import './App.css';
-REACT_APP_API_URL = "https://sentiant-node-server.onrender.com";
+
 function App() {
   const [user, setUser] = useState(null); // To store user info
   const [videoURL, setVideoURL] = useState('');
